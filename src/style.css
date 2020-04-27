@@ -1,0 +1,23 @@
+body{
+  background-color: rgb(63, 59, 59);
+  width:200px;
+}
+
+form{
+  max-width: 320px;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+}
+
+input {
+  width: 95%;
+}
+
+button{
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}

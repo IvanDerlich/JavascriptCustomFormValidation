@@ -1,3 +1,2 @@
 # Practice
-A repo to practice different technologies
-Different branches represents different practice projects
+Coding following [this](https://www.theodinproject.com/courses/javascript/lessons/forms-javascript#project) guide
