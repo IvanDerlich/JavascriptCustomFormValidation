@@ -7,13 +7,14 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="">
+    <form method="GET" id="my-form" novalidate></form>
       <fieldset>
         <label for="email">E-mail:</label>
-        <input type="email" name="email" id="email" required>
+        <input type="email" name="email" id="email" form="my-form" minlength="6" required>
+        <span class="error"></span>
 
         <label for="country">Country:</label>
-        <select id="country" required> 
+        <select required id="country" form="my-form"> 
           <option value disabled selected> -- select an option -- </option>
           <option value="AF">Afghanistan</option>
           <option value="AX">Åland Islands</option>
@@ -266,14 +267,16 @@
           <option value="ZW">Zimbabwe</option>
         
         </select>
+        <span class="error"></span>
 
         <label for="zip">Zip Code:</label>
-        <input type="number" name="zip" id="zip" required>
+        <input type="number" name="zip" id="zip" form="my-form">
+        <span class="error"></span>
 
-        <button>Submit</button>
+        <button form="my-form">Submit</button>
 
       </fieldset>
-    </form>
+    
 </body>
 <script src="script.js"></script>
 </html>
