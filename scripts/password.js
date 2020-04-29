@@ -4,10 +4,10 @@ const passwordError = document.querySelector('#password + span.error');
 const passwordRepeatError = document.querySelector('#password-repeat + span.error');
 
 
-password.addEventListener("input", (e)=>{  
+password.addEventListener("input", ()=>{  
   PasswordCleanOrShowError();
 })
-passwordRepeat.addEventListener("input", (e)=>{ 
+passwordRepeat.addEventListener("input", ()=>{ 
   PasswordRepeatCleanOrShowError()
 })
 
