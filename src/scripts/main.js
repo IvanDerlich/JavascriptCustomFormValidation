@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const form = document.querySelector("form")
 
 form.addEventListener("submit",(e)=>{

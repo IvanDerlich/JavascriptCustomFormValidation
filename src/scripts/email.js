@@ -1,13 +1,8 @@
 const email = document.querySelector("input[type='email']")
 const emailError = document.querySelector('#email + span.error');
 
-email.addEventListener("input", (e) =>{
-  if(!email.validity.valid)
-    emailShowError()
-  else{
-    emailError.innerHTML = '';
-    emailError.className = 'error'
-  }
+email.addEventListener("input", () =>{
+  emailCleanOrShowError()
 })
 
 function emailShowError(){
