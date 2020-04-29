@@ -15,6 +15,10 @@ It checks validation of password match and writes in into validation object.
 
 [Here](Screenshots.md)
 
+## Video
+
+[Here](https://www.youtube.com/watch?v=rEfF8JFXzw8)
+
 ## Live Version
 
 [Here](https://ivanderlich.github.io/JavascriptCustomFormValidation/)
