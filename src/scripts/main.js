@@ -6,11 +6,19 @@ form.addEventListener("submit",(e)=>{
   
   countryCleanOrShowError();
 
-  emailCleanOrShowError();
+  emailCleanOrShowError(); 
 
   zipCleanOrShowError();  
 
-  if (country.validity.valid && email.validity.valid && zip.validity.valid){
+  PasswordCleanOrShowError();
+
+  PasswordRepeatCleanOrShowError();
+
+  if (country.validity.valid && 
+    email.validity.valid && 
+    zip.validity.valid && 
+    password.validity.valid && 
+    passwordRepeat.validity.valid){
       alert("Todo bien!");
   }
   
