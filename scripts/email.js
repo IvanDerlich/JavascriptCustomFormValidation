@@ -11,6 +11,7 @@ email.addEventListener("input", (e) =>{
 })
 
 function emailShowError(){
+  
   if(email.validity.valueMissing) {
     emailError.textContent = 'You need to enter an e-mail address.';
   } else if(email.validity.typeMismatch) {
@@ -22,10 +23,10 @@ function emailShowError(){
 }
 
 function emailCleanOrShowError(){
-  if (country.validity.valid){
-    countryError.innerHTML = ''
-    countryError.className = 'error'
+  if (email.validity.valid){
+    emailError.innerHTML = ''
+    emailError.className = 'error'
   } else {
-    countryShowError();    
+    emailShowError();    
   }
 }

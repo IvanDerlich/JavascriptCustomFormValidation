@@ -2,12 +2,7 @@ const zip = document.querySelector('#zip');
 const zipError = document.querySelector('#zip + span.error');
 
 zip.addEventListener("input", (e)=>{
-  if(!zip.validity.valid)
-    zipShowError()
-  else {
-    zipError.innerHTML = '';
-    zipError.className = 'error'
-  }
+  zipCleanOrShowError()
 })
 
 function zipShowError(){
