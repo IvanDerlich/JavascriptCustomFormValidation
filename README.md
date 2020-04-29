@@ -11,17 +11,13 @@ It checks validation of password match and writes in into validation object.
 ![alt text](docs/1.png)<br>
 ![alt text](docs/2.png)<br>
 
-## More screenshots
+## See the project
 
-[Here](Screenshots.md)
+[More screenshots](Screenshots.md)
 
-## Video
+[Video](https://www.youtube.com/watch?v=rEfF8JFXzw8)
 
-[Here](https://www.youtube.com/watch?v=rEfF8JFXzw8)
-
-## Live Version
-
-[Here](https://ivanderlich.github.io/JavascriptCustomFormValidation/)
+[Live Version](https://ivanderlich.github.io/JavascriptCustomFormValidation/)
 
 ## Requirements
 
